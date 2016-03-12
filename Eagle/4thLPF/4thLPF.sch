@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -14240,19 +14240,19 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="burr-brown" deviceset="OPA2134" device="P"/>
+<part name="IC1" library="burr-brown" deviceset="OPA2134" device="P" value="NJM2068"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="050-035X075"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="050-035X075"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0207/7"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="0207/7"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="2.7k"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="050-035X075" value="560p"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="050-035X075" value="100p"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0207/7" value="6.8k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="0207/7" value="2.7k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0207/7"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="0207/7"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="0207/7"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="050-035X075"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="050-024X044"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="7.5k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="0207/7" value="12k"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="0207/7" value="7.5k"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="050-035X075" value="560p"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="050-024X044" value="10p"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -14265,8 +14265,8 @@ Source: www.kingbright.com</description>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="Blue"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="0207/7" value="10k"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="050-024X044" value="1uF"/>
-<part name="C6" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="10uF"/>
-<part name="C7" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="10uF"/>
+<part name="C6" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF"/>
+<part name="C7" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF"/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X3" device="" value="OUTPUT"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="" value="INPUT"/>
 <part name="P+2" library="supply1" deviceset="V+" device=""/>
